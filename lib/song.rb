@@ -15,10 +15,11 @@ class Song
     @@all[@@all.length-1]
   end
 
-  def self.new_by_name(name)
-    song = self.new_by_name
-    song.name = name
-    @@all << song
+  def self.create_by_name(name)
+      person = self.new
+      person.name = name
+      @@all << person
+    end
   end
 
 end
