@@ -16,4 +16,10 @@ class Song
     @@all[@@all.length-1]
   end
 
+  def self.new_by_name(name)
+    #instantiates a song with the name property
+    @name = name
+    
+  end
+
 end
