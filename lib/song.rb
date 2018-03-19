@@ -6,6 +6,7 @@ class Song
     @name = name
     @artist_name = artist_name
     @@all << name
+    self
   end
 
   def self.all
